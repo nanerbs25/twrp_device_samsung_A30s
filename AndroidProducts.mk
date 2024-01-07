@@ -14,5 +14,6 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_a30s.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_A30s.mk
 
+COMMON_LUNCH_CHOICES := twrp_A30s-eng

@@ -1,1 +1,14 @@
-add_lunch_combo omni_a30s-eng
+#OFRP VARS
+export OF_MAINTAINER=nanerbs25
+export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
+export OF_SCREEN_H=2400
+export OF_FL_PATH1=/tmp
+export OF_STATUS_H=80
+export OF_STATUS_INDENT_LEFT=48
+export OF_STATUS_INDENT_RIGHT=48
+export OF_CLOCK_POS=1
+export OF_ALLOW_DISABLE_NAVBAR=0
+export FOX_DELETE_AROMAFM=1
+export FOX_BUILD_TYPE="Beta"
+export FOX_REMOVE_BASH=1
+export FOX_RECOVERY_INSTALL_PARTITION=/dev/block/platform/13500000.dwmmc0/by-name/recovery

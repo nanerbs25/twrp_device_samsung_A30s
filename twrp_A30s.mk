@@ -21,11 +21,11 @@ PRODUCT_RELEASE_NAME := a30s
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk) 
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := a30s
-PRODUCT_NAME := omni_a30s
+PRODUCT_DEVICE := A30s
+PRODUCT_NAME := twrp_A30s
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := Galaxy A30s
 PRODUCT_MANUFACTURER := Samsung

@@ -38,6 +38,7 @@ ENABLE_SCHEDBOOST := true
 
 # Build fails without this
 ALLOW_MISSING_DEPENDENCIES := true
+TARGET_USES_64BIT_APPS := true
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := exynos7904
