@@ -20,7 +20,7 @@ $ repo sync
 ```
 $ export ALLOW_MISSING_DEPENDENCIES=true
 $ . build/envsetup.sh
-$ lunch omni_a30s-eng
+$ lunch twrp_A30s-eng
 $ mka recoveryimage
 ```
 ## How to find the image built
@@ -32,6 +32,7 @@ see recovery.img
 # Device Tree for Samsung Galaxy A30s (SM-A307FN/DS)
 
 Device Tree Made by topser9
+Updated by Nanerbs25
 ```
 ![Galaxy A30s](https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a30s.jpg "Galaxy A30s")
 # Specs
